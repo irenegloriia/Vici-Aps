@@ -1,0 +1,71 @@
+#box{
+   background-color: #E5E5E5;
+   height: 31px;
+   padding-top:10px;
+   padding-left : 5px;
+   
+ }
+
+* {
+  /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+  margin: 0;
+  padding: 0;
+
+  /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+  height: 50px;;
+  margin: 0 auto;
+ 
+}
+
+.left-content {
+  text-align: left;
+  line-height: 400px;
+  width: 50%;
+  height: 100%;
+  padding: 10px 0 0 10px;
+
+  /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
+  float: left;
+}
+
+
+.right-content {
+  text-align: right;
+  line-height: 400px;
+  width: 50%;
+  height: 100%;
+  padding: 10px 5px 0 0;
+
+  /* digunakan untuk memindahkan posisi elemen ke sisi kanan container */
+  float: right;
+}
+
+ion-icon {
+  padding-right: 10px;
+  color: black;
+
+}
+  .ion-color-vici {
+    --ion-color-base: var(--ion-color-vici);
+    --ion-color-base-rgb: var(--ion-color-vici-rgb);
+    --ion-color-contrast: var(--ion-color-vici-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-vici-contrast-rgb);
+    --ion-color-shade: var(--ion-color-vici-shade);
+    --ion-color-tint: var(--ion-color-vici-tint);
+}
+
+.badge{
+    width: auto;
+    width: 75px;;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+  }
+
+
+ 

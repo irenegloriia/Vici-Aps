@@ -1,0 +1,19 @@
+#box{
+    background-color: #343434;
+}
+
+#box{
+    background-color: #E5E5E5;
+    height: 31px;
+    padding-top:5px;
+    padding-left : 5px;
+  }
+ 
+.ion-color-new {
+    --ion-color-base: var(--ion-color-new);
+    --ion-color-base-rgb: var(--ion-color-new-rgb);
+    --ion-color-contrast: var(--ion-color-new-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-new-contrast-rgb);
+    --ion-color-shade: var(--ion-color-new-shade);
+    --ion-color-tint: var(--ion-color-new-tint);
+  }

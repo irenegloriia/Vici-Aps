@@ -1,0 +1,52 @@
+ion-icon {
+    padding-right: 10px;
+    color: black;
+
+}
+
+#title-large{
+ position: absolute;
+ top: 30%;
+}
+
+* {
+    /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+    margin: 0;
+    padding: 0;
+
+    /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+    box-sizing: border-box;
+}
+
+.container {
+    width: auto;
+    height: 50px;;
+    margin: 0 auto;
+}
+
+.left-content {
+    text-align: left;
+    line-height: 400px;
+    width: 50%;
+    height: 100%;
+    padding: 10px 0 0 10px;
+
+    /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
+    float: left;
+}
+
+
+.right-content {
+    text-align: right;
+    line-height: 400px;
+    width: 50%;
+    height: 100%;
+    padding: 10px 5px 0 0;
+
+    /* digunakan untuk memindahkan posisi elemen ke sisi kanan container */
+    float: right;
+}
+
+#chat{
+    padding-top : 10px;
+}

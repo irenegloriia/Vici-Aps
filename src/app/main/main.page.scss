@@ -1,0 +1,48 @@
+
+
+
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    transform: translateY(-50%);
+
+  }
+
+  img{
+    margin-top: 200px;
+    object-fit: cover;
+    width: 123px;
+    
+}
+
+p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+padding-bottom: 20px;
+}
+
+  ion-button{
+      border-radius: 5px;
+      margin-top: 10px;
+      text-align: center;
+      border : none;
+      padding : 0;
+      text-decoration: none;
+      display:inline-block;
+      text-transform: uppercase;
+      transition: all 0.3s ease-in-out;
+      width: 118px;
+      height:25px;
+      color: #ffffff;
+      font-size: 13px;
+      background-color:#F3B340 ;
+      
+  }
+
+  #tabs{
+    background-color:#555555;
+  }

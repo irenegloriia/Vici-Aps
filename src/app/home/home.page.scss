@@ -8,15 +8,17 @@
   transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
+#p {
+  font-size: 15px;
   line-height: 26px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color : #083999;
 }
 
 #container p {
   font-size: 16px;
   line-height: 22px;
-
+ 
   color: #8c8c8c;
 
   margin: 0;
@@ -24,4 +26,35 @@
 
 #container a {
   text-decoration: none;
+  
 }
+
+.ion-color-joinmeeting {
+  --ion-color-base: var(--ion-color-joinmeeting);
+  --ion-color-base-rgb: var(--ion-color-joinmeeting-rgb);
+  --ion-color-contrast: var(--ion-color-joinmeeting-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-joinmeeting-contrast-rgb);
+  --ion-color-shade: var(--ion-color-joinmeeting-shade);
+  --ion-color-tint: var(--ion-color-joinmeeting-tint);
+}
+
+.ion-color-signup {
+  --ion-color-base: var(--ion-color-signup);
+  --ion-color-base-rgb: var(--ion-color-signup-rgb);
+  --ion-color-contrast: var(--ion-color-signup-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-signup-contrast-rgb);
+  --ion-color-shade: var(--ion-color-signup-shade);
+  --ion-color-tint: var(--ion-color-signup-tint);
+}
+
+#logo{
+    width: 200px;
+    padding : 0 0 150px 0;
+
+    object-fit: cover;
+    margin : 0;
+}
+
+
+
+

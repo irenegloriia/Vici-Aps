@@ -74,6 +74,39 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /* joinmeeting **/ 
+   
+  --ion-color-joinmeeting: #0594B4;
+  --ion-color-joinmeeting-rgb: 5,148,180;
+  --ion-color-joinmeeting-contrast: #ffffff;
+  --ion-color-joinmeeting-contrast-rgb: 255,255,255;
+  --ion-color-joinmeeting-shade: #04829e;
+  --ion-color-joinmeeting-tint: #1e9fbc;
+
+  /* Signup **/
+  --ion-color-signup: #2A7D41;
+  --ion-color-signup-rgb: 42,125,65;
+  --ion-color-signup-contrast: #ffffff;
+  --ion-color-signup-contrast-rgb: 255,255,255;
+  --ion-color-signup-shade: #256e39;
+  --ion-color-signup-tint: #3f8a54;
+
+  /* Vici **/
+  --ion-color-vici: #F3B340;
+  --ion-color-vici-rgb: 243,179,64;
+  --ion-color-vici-contrast: #000000;
+  --ion-color-vici-contrast-rgb: 0,0,0;
+  --ion-color-vici-shade: #d69e38;
+  --ion-color-vici-tint: #f4bb53;
+
+  /* red */
+  --ion-color-new: #E50D0D;
+  --ion-color-new-rgb: 229,13,13;
+  --ion-color-new-contrast: #ffffff;
+  --ion-color-new-contrast-rgb: 255,255,255;
+  --ion-color-new-shade: #ca0b0b;
+  --ion-color-new-tint: #e82525;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -145,6 +178,8 @@
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+
+    
   }
 
   /*
@@ -225,4 +260,8 @@
 
     --ion-tab-bar-background: #1f1f1f;
   }
+
+  $colors:(
+    vici: #F3B340
+  );
 }

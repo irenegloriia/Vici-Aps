@@ -1,0 +1,66 @@
+<ion-content>
+  <div class="container">
+ 
+    <h3> 
+     <ion-icon name="add-circle-sharp"></ion-icon>
+     <ion-icon name="search"></ion-icon>
+     <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+     <span class="iconify" data-icon="ion:add" data-inline="false"></span>        
+     </h3>
+   
+   </div>
+
+
+  <ion-segment (ionChange)="segmentChanged($event)" color="vici" value="recent" [(ngModel)]="selectTabs">
+    <ion-segment-button value="recent">
+      <ion-label>Recent</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="recordings">
+      <ion-label>Recordings</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div *ngIf="selectTabs == 'recent'">
+    <h1>
+      <p id="box"> Today </p>
+
+      <ion-item>
+        <ion-label>Vici Team
+          <br>Marketing Campign
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Vici Team
+          <br>Marketing Campign
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Vici Team
+          <br>Marketing Campign
+        </ion-label>
+      </ion-item>
+    </h1>
+  </div>
+
+  <div *ngIf="selectTabs == 'recordings'">
+    <h1>
+      <p id="box"> Today </p>
+
+      <ion-item>
+        <ion-label>Vici Team's Meeting Record
+          <br>Thuesday
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Vici Team's Meeting Record
+          <br>Thuesday
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Vici Team
+          <br>Marketing Campign
+        </ion-label>
+      </ion-item>
+    </h1>
+  </div>
+</ion-content>
