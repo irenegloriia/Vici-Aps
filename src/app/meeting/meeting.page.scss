@@ -1,10 +1,10 @@
-#box{
-   background-color: #E5E5E5;
-   height: 31px;
-   padding-top:10px;
-   padding-left : 5px;
-   
- }
+#box {
+  background-color: #E5E5E5;
+  height: 31px;
+  padding-top: 5px;
+  padding-left: 5px;
+margin-top:8px;
+}
 
 * {
   /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
@@ -17,9 +17,10 @@
 
 .container {
   width: auto;
-  height: 50px;;
+  height: 50px;
+  ;
   margin: 0 auto;
- 
+
 }
 
 .left-content {
@@ -50,22 +51,44 @@ ion-icon {
   color: black;
 
 }
-  .ion-color-vici {
-    --ion-color-base: var(--ion-color-vici);
-    --ion-color-base-rgb: var(--ion-color-vici-rgb);
-    --ion-color-contrast: var(--ion-color-vici-contrast);
-    --ion-color-contrast-rgb: var(--ion-color-vici-contrast-rgb);
-    --ion-color-shade: var(--ion-color-vici-shade);
-    --ion-color-tint: var(--ion-color-vici-tint);
+
+.ion-color-vici {
+  --ion-color-base: var(--ion-color-vici);
+  --ion-color-base-rgb: var(--ion-color-vici-rgb);
+  --ion-color-contrast: var(--ion-color-vici-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vici-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vici-shade);
+  --ion-color-tint: var(--ion-color-vici-tint);
 }
 
-.badge{
-    width: auto;
-    width: 75px;;
-    margin: 0 auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-  }
+.badge {
+  height: 20px;
+  ;
+  width: 75px;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+}
 
+ion-label {
+  padding-left: 8px;
 
- 
+}
+
+#b {
+  padding-top: 10px;
+  height: 70px;
+  padding-bottom: 2px;
+}
+
+ion-searchbar {
+  padding-bottom: 10px;
+  width: 99%;
+  margin: 0 auto;
+  // padding-left: 5px;
+  padding-top: 3px;
+  --border-radius: 10px;
+  ;
+}

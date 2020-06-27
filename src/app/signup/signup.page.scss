@@ -1,0 +1,57 @@
+// #container {
+//     text-align: center;
+//   padding-top: 20%;;
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     top: 50%;
+//     transform: translateY(-50%);
+//   }
+
+
+img{
+    margin-top: 100px;
+    object-fit: cover;
+    width: 123px;
+   
+    
+}
+#logo{
+    text-align: center;
+}
+p{
+    padding-bottom:50px;
+}
+#p {
+    font-size: 15px;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color : #083999;
+    
+  }
+ion-input{
+background-color: #C4C4C4;
+border: none;
+color: #555555;
+// padding : 15px 5px;
+text-decoration: none;
+font-size : 12px;
+margin : 0 auto;
+width :308px;
+height:32px;
+transition: all 0.3s ease-in-out;
+margin-bottom: 10px;
+}
+
+
+
+ion-button{
+  margin: auto;
+  text-align:center;
+  padding:0 auto;
+    border-radius: 5px;
+    background-color:#F3B340 ;
+    width :118px;
+    height: 25px;
+   
+}

@@ -29,10 +29,15 @@ const routes: Routes = [
         loadChildren: () => import('../../recent/recent.module').then( m => m.RecentPageModule)
       },
       {
+        path: 'room',
+        loadChildren: () => import('../../room/room.module').then( m => m.RecentPageModule)
+      },
+      {
         path: '',
         redirectTo:'/tabs/Home',
         pathMatch:'full'
         },
+        
     ]
   }
 ];

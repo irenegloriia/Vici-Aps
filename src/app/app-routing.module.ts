@@ -40,6 +40,30 @@ const routes: Routes = [
     path: 'tabs',
     loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
   },
+  {
+    path: 'signup',
+    loadChildren: () => import('./signup/signup.module').then( m => m.SignupPageModule)
+  },
+  {
+    path: 'schedule',
+    loadChildren: () => import('./schedule/schedule.module').then( m => m.SchedulePageModule)
+  },
+  {
+    path: 'language',
+    loadChildren: () => import('./language/language.module').then( m => m.LanguagePageModule)
+  },
+  {
+    path: 'join',
+    loadChildren: () => import('./join/join.module').then( m => m.JoinPageModule)
+  },
+  {
+    path: 'newmeet',
+    loadChildren: () => import('./newmeet/newmeet.module').then( m => m.NewmeetPageModule)
+  },
+  {
+    path: 'room',
+    loadChildren: () => import('./room/room.module').then( m => m.RoomPageModule)
+  },
   
 ];
 

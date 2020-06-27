@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <div id="container">
+        <div class="left-content">
+          <h3>Schedule Meeting</h3>
+        </div>
+        <div class="right-content">
+          <h3 id="text">Cancel</h3>
+        </div>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item id="b">
+    <ion-icon name="document-text-outline">
+    </ion-icon>
+    <ion-input placeholder=" Agenda Meeting"></ion-input>
+  </ion-item>
+  <ion-item id="b">
+    <ion-icon name="link-outline"> </ion-icon>
+    <ion-input placeholder="URL Meeting"></ion-input>
+  </ion-item>
+  <ion-item id="b">
+
+    <ion-icon name="person-add-outline"></ion-icon>
+    <ion-input placeholder="Add Contact"></ion-input>
+    <ion-icon name="reader-outline"></ion-icon>
+  </ion-item>
+
+  <ion-item id="b">
+    <ion-icon name="time-outline"></ion-icon>
+    <ion-label>Date and Time</ion-label>
+    <ion-datetime displayFormat="D MMM YYYY H:mm" min="1997" max="2010" value="2005-06-17T11:06Z"></ion-datetime>
+  </ion-item>
+  <ion-button color="vici">Create</ion-button>
+</ion-content>

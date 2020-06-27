@@ -1,0 +1,78 @@
+* {
+    /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+    margin: 0;
+    padding: 0;
+
+    /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+    box-sizing: border-box;
+}
+
+.container {
+    height: 50px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.left-content {
+    text-align: center;
+    line-height: 400px;
+    width: 70%;
+    height: 100%;
+    padding: 10px 0 0 25%;
+
+    /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
+    float: left;
+}
+
+.right-content {
+    text-align: right;
+    line-height: 400px;
+    width: 30%;
+    height: 100%;
+
+    padding: 15px 20px 0 0;
+
+    /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
+    float: right;
+
+}
+
+#text {
+    font-size: medium;
+    color: red;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+
+
+
+#b{
+    margin-top:25px;
+    // margin-left:30px;
+    margin:0 auto;
+    width:83%;
+    border-left: none;
+    border-top:none;
+    border-right:none;
+    border-color: #828282;
+}
+
+ion-button{
+    margin-top:30px;
+    margin-left:57%;
+    text-align:center;
+    padding:0 auto;
+      border-radius: 5px;
+      background-color:#F3B340 ;
+      width :118px;
+      height: 25px;
+}
+
+ion-icon{
+    margin-right: 9px;
+}
+
+ion-header{
+    margin-bottom:40px;;
+}
