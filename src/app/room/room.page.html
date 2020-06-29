@@ -1,17 +1,56 @@
 <ion-header>
   <ion-toolbar>
-    <ion-buttons slot="primary">
-      <ion-button (click)="clickedStar()">
-        <ion-icon slot="icon-only" name="star"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-    <ion-title>Right side menu toggle</ion-title>
-    <ion-buttons slot="end">
-      <ion-menu-button autoHide="false"></ion-menu-button>
-    </ion-buttons>
+    <div class="box">
+      <div class="right-content">
+        <h3>
+          <ion-icon size="large" name="ellipsis-vertical-outline"></ion-icon>
+        </h3>
+      </div>
+    </div>
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <!-- <div class="flex-container-column card">
+    <div class="flex-container-row">
+        <div class="fill">7</div>
+        <div class="fill">8</div>
+    </div>
+    <div class="flex-container-row">
+      <div class="fill">7</div>
+      <div class="fill">8</div>
+  </div>
+    </div> -->
+<div id="b">
+<ion-grid >
+    <ion-row >
+      <div class="grid">
+        <ion-col>
+          <ion-button color="vici"></ion-button>
+        </ion-col>
+      </div>
+      <div class="grid">
+        <ion-col>
+          <ion-button color="vici"></ion-button>
+        </ion-col>
+      </div>
+      <div class="grid">
+        <ion-col>
+          <ion-button color="vici"></ion-button>
+        </ion-col>
+      </div> 
+      <div class="grid">
+        <ion-col>
+          <ion-button color="vici"></ion-button>
+        </ion-col>
+      </div>
+      <div>
+        <ion-col class="grid">
+          <ion-button color="vici"></ion-button>
+        </ion-col>
+      </div>
+    </ion-row>
+  </ion-grid>
+</div>
 </ion-content>
