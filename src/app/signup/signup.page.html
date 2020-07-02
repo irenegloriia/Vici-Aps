@@ -1,4 +1,13 @@
 <ion-content>
+  <div id="back">
+    <ion-title>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="/home"></ion-back-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-title>
+    </div>
   <div id="logo">
     <img src="assets\image\Logo.PNG" alt="logo">
     <p>SIGN UP</p>
@@ -12,8 +21,8 @@
   <ion-input placeholder="Confirmation Password"></ion-input>
   </div>
   <div id="logo">
-    <ion-button color="vici">Sign Up</ion-button>
-    <p>Don't have an account? <a href="#"><strong id="p">Sign In.</strong></a></p>
+    <ion-button color="vici" routerLink="/login">Sign Up</ion-button>
+    <p>Don't have an account? <a routerLink="/login"><strong id="p">Sign In.</strong></a></p>
   </div>
  
 </ion-content>

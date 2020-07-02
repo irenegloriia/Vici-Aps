@@ -6,14 +6,15 @@
   </ion-toolbar>
 </ion-header>-->
 
+
 <ion-content [fullscreen]="true">
   
   <div id="container">
-    <img src="assets\image\Logo.PNG" alt="Logo" id="logo">
-    <p>Happy Meeting</p>
-  <ion-button size="small" color="joinmeeting">Join Meeting</ion-button>
+    <img src="assets\image\logovici.png" alt="Logo" id="logo">
+    <p>Enjoy the Meeting</p>
+  <ion-button size="small" color="joinmeeting" >Join Meeting</ion-button>
   <ion-button size="small" color="signup" routerLink="/login">Sign In</ion-button>
 
-  <p>Don't have an account? <a href="#"><strong id="p">Sign Up.</strong></a></p>
+  <p>Don't have an account? <a routerLink="/signup"><strong id="p">Sign Up.</strong></a></p>
   </div>
 </ion-content>

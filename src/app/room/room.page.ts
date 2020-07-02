@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./room.page.scss'],
 })
 export class RoomPage implements OnInit {
-
+  selectTabs = "room";
   constructor() { }
 
   ngOnInit() {

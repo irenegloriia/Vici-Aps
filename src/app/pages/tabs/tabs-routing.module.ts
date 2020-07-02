@@ -32,6 +32,8 @@ const routes: Routes = [
         path: 'room',
         loadChildren: () => import('../../room/room.module').then( m => m.RoomPageModule)
       },
+     
+     
       {
         path: '',
         redirectTo:'/tabs/Home',

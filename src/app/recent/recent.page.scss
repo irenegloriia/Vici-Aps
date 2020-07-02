@@ -42,12 +42,12 @@ h3{
 }
 
 .left-content {
-    text-align: left;
+    text-align: right;
     line-height: 400px;
     width: 50%;
     height: 100%;
     padding: 10px 0 0 10px;
-    font-size:20px;
+
     /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
     float: left;
 }
@@ -63,6 +63,12 @@ h3{
 
     /* digunakan untuk memindahkan posisi elemen ke sisi kanan container */
     float: right;
+}
+
+#a{
+  text-align:left;
+  padding-left: 4px;
+  font-size:18px;
 }
 
 #pos{

@@ -1,15 +1,41 @@
  
 
+<ion-menu side="end" menuId="first" contentId="main">
+   <ion-header>
+     <ion-toolbar color="vici">
+       <ion-title >Settings</ion-title>
+     </ion-toolbar>
+   </ion-header>
+   <ion-content>
+     <ion-list>
+       <ion-item>Account</ion-item>
+       <ion-item routerLink="/home">Logout</ion-item>
+       
+     </ion-list>
+   </ion-content>
+ </ion-menu>
+<ion-router-outlet id="main"></ion-router-outlet> 
+
 <ion-content >
- 
+  
+   <ion-title>
+      <div class="container">
+      <div class="right-content">
+       <h3> 
+        <ion-icon name="settings-outline" expand="block"  (click)="openFirst()"></ion-icon>
+        </h3>
+    </div>
+     </div>
+    </ion-title>
  <div id="container" >
   <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" >
    <p><strong>Welcome, <br>
 Rebecca Cathy</strong></p>
 
-<ion-button color="vici">New Meeting</ion-button>
-<ion-button color="vici">Join Meeting</ion-button>
+<ion-button color="vici" routerLink="/newmeet">New Meeting</ion-button>
+<ion-button color="vici" routerLink="/join">Join Meeting</ion-button>
 </div>
+
 
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </ion-content>

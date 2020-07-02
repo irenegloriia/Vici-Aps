@@ -64,6 +64,14 @@ const routes: Routes = [
     path: 'room',
     loadChildren: () => import('./room/room.module').then( m => m.RoomPageModule)
   },
+  {
+    path: 'addchat',
+    loadChildren: () => import('./addchat/addchat.module').then( m => m.AddchatPageModule)
+  },
+  {
+    path: 'roomchat',
+    loadChildren: () => import('./roomchat/roomchat.module').then( m => m.RoomchatPageModule)
+  },
   
 ];
 
